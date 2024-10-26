@@ -1,0 +1,38 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+    padding:0;
+    background-color:#F00;
+}
+
+.main {
+
+}
+
+.main .main-side_menu {
+    width:280px;
+    background-color: #262d34;
+    height: 100vh;
+    padding:30px 15px;
+    position:fixed;
+    top:0;
+}
+.main .main-side_menu .main-side_menu--Container {
+    display: flex;
+    justify-content: center;
+}
+.main .main-side_menu .main-side_menu--Container img {
+    width:112px;
+    height: 24px;
+}
+.main .main-content {
+    margin-left: 280px;
+    height:100vh;
+}
+.main .main-content .main-content_container {
+    width: 100%;
+    padding:10px;
+    margin:0 auto;
+}
